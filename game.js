@@ -67,8 +67,9 @@ class Game{
                      fill("white");
                      textSize(25);
                      text("SCORE :- ",20,50);
-                     text(allPlayers["player1"].name+"="+allPlayers["player1"].score,20,90)
-                     text(allPlayers["player2"].name+"="+allPlayers["player2"].score,20,130)
+                     text(allPlayers("Player1 :")+allPlayer.player1.score,50,50);
+                     text(allPlayers("Player2 :")+allPlayer.player2.score,50,100);
+
 
                  
                  }
