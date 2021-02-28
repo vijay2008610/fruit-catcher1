@@ -67,11 +67,8 @@ class Game{
                      fill("white");
                      textSize(25);
                      text("SCORE :- ",20,50);
-                     text(allPlayers("Player1 :")+allPlayer.player1.score,50,50);
-                     text(allPlayers("Player2 :")+allPlayer.player2.score,50,100);
-
-
-                 
+                    text("Player 1: "+ allPlayers.player1.score,50,50);
+                    text("Player 2:"+ allPlayers.player2.score,50,70);
                  }
                 
                 
